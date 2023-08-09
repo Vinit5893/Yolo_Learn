@@ -32,7 +32,12 @@ while True:
     # print(net.getUnconnectedOutLayers())
 
     output = net.forward(outputNames)
-    print(type(output[0]))
+    print(output[0].shape)
+    print(output[1].shape)
+    print(output[2].shape)
+    print(output[0][0])
+
+
 
     cv2.imshow('Image',img)
     # cv2.waitKey(1)
