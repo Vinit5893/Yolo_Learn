@@ -27,10 +27,12 @@ while True:
 
     layerNames = net.getLayerNames()
     # print(layerNames)
-    outputNames = [layerNames[(0)-1] for i in net.getUnconnectedOutLayers()]
-    print(outputNames)
-    print(net.getUnconnectedOutLayers())
+    outputNames = [layerNames[i-1] for i in net.getUnconnectedOutLayers()]
+    # print(outputNames)
+    # print(net.getUnconnectedOutLayers())
 
+    output = net.forward(outputNames)
+    print(type(output[0]))
 
     cv2.imshow('Image',img)
     # cv2.waitKey(1)
