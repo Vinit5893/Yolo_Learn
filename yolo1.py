@@ -7,6 +7,7 @@ classesFile = 'coco.names'
 classNames = []
 with open(classesFile, 'rt') as f:
     classNames = f.read().rstrip('\n').split('\n')
+    
 print(classNames)
 print(len(classNames))
 
