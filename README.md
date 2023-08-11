@@ -51,3 +51,9 @@ pip install numpy
 
     [Yolo_Learn/Resources/coco.names](Resources/coco.names)
 
+## Resources
+- Youtube playlist 
+
+    [Murtaza's Workshop](https://youtube.com/playlist?list=PLMoSUbG1Q_r8nz4C5Yvd17KaXy8p0ufPH)
+
+# Thank You
