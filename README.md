@@ -1,5 +1,5 @@
 # Yolov3_Learn
--  Learning yolov3 algo for open cv
+-  Learning yolov3 algo for object detection using open cv
 
 ## Creating an virtual environment for python on Linux
 1. Update or install pip
