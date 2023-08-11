@@ -2,19 +2,19 @@
 -  Learning yolov3 algo for open cv
 
 ## Creating an virtual environment for python on Linux
-- Update or install pip
+1. Update or install pip
 ```
 sudo apt-get install python-pip
 ```
-- Install Virtual Environment
+2. Install Virtual Environment
 ```
 pip install virtualenv
 ```
-- Create a new virtual environment of your desired name [virtualenv_name]
+3. Create a new virtual environment of your desired name [virtualenv_name]
 ```
 virtualenv virtualenv_name
 ```
-- Initiate the virtualenv_name
+4. Initiate the virtualenv_name
 ```
 source virtualenv_name/bin/activate
 ```
